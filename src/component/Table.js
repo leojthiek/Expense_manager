@@ -11,7 +11,7 @@ export default function Table({
   findModalIdAndedit,
   setTableData,
 }) {
-  const pageSize = 1
+  const pageSize = 3
   const [currentPage, setCurrentPage] = useState(1)
   const visiblePage = 5
   const [openDeletePrompt, setOpenDeletePrompt] = useState(false)
