@@ -61,6 +61,7 @@ export default function Table({
   const handleDelete = (id) => {
     const updateTable = tableData.filter((item) => item.id !== id)
     setTableData(updateTable)
+    setOpenDeletePrompt(false)
   }
 
   const handleDeletePrompt = () => {
